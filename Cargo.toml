@@ -1,0 +1,22 @@
+[package]
+name = "igmr"
+version = "0.1.0"
+authors = ["Jeames Aitkin <Jeames8kin@hotmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.7"
+
+os_type = "2.2"
+cmd_lib = "0.8.4"
+
+chrono = "0.4"
+
+tui = "0.14.0"
+termion = { version = "1.5" }
+
+serde_json = "1.0.61"
+serde = { version = "1.0.118", features = ["derive"] }
+serde_derive = "1.0"
